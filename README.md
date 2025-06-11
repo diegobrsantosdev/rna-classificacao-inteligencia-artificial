@@ -1,42 +1,45 @@
-# rna-classificacao-inteligencia-artificial
-Projeto de classificação com Redes Neurais Artificiais usando TensorFlow – atividade prática da disciplina de IA..
+# rna-classification-artificial-intelligence  
+Classification project with Artificial Neural Networks using TensorFlow – practical activity for the AI course.
 
-Este projeto foi desenvolvido como parte das atividades práticas da disciplina de Inteligência Artificial do curso de Análise e Desenvolvimento de Sistemas.
+This project was developed as part of the practical activities of the Artificial Intelligence course in the Systems Analysis and Development program.
 
-## 💡 Objetivo
+## 💡 Objective
 
-Construir e treinar uma Rede Neural Artificial (RNA) para resolver um problema de classificação binária, a partir de um dataset com atributos numéricos.
+Build and train an Artificial Neural Network (ANN) to solve a binary classification problem using a dataset with numerical attributes.
 
-## 🧰 Tecnologias e Bibliotecas
+## 🧰 Technologies and Libraries
 
 - Python 3.x  
 - pandas, numpy  
 - scikit-learn (`train_test_split`, `StandardScaler`)  
 - tensorflow.keras (Sequential, Dense, Adam)  
-- matplotlib.pyplot (visualização)
+- matplotlib.pyplot (visualization)
 
-## 📊 Estrutura da Rede Neural
+## 📊 Neural Network Architecture
 
-- Camada 1: 16 neurônios, ativação ReLU  
-- Camada 2: 8 neurônios, ativação ReLU  
-- Saída: 1 neurônio, ativação Sigmoid  
-- Otimizador: Adam  
-- Função de perda: Binary Crossentropy
+- Layer 1: 16 neurons, ReLU activation  
+- Layer 2: 8 neurons, ReLU activation  
+- Output: 1 neuron, Sigmoid activation  
+- Optimizer: Adam  
+- Loss function: Binary Crossentropy
 
-## 📈 Resultados
+## 📈 Results
 
-- Média de acurácia no teste: **91,67%**  
-- Treinamento estável, com pequenas oscilações abaixo de 2%  
-- Aplicação de boas práticas: normalização, estratificação, prevenção de overfitting  
+- Average test accuracy: **91.67%**  
+- Stable training with minor fluctuations under 2%  
+- Application of best practices: normalization, stratification, overfitting prevention  
 
-## 📷 Exemplo de visualização
 
-![Curva de aprendizado](resultados/grafico_aprendizado.png)
+## 🧪 Code
 
-## 🧪 Código
-
-O código principal está em `rede_neural.py`. Basta executar após instalar as bibliotecas com:
+The main code is in `rede_neural.py`. Just run it after installing the libraries with:
 
 ```bash
 pip install -r requirements.txt
 python rede_neural.py
+```
+
+👨‍💻 Author
+Diego Melo Bezerra dos Santos
+🔗 github.com/diegobrsantosdev
+
