@@ -1,4 +1,4 @@
-# rna-classification-artificial-intelligence  
+# RNA-classification-artificial-intelligence  
 Classification project with Artificial Neural Networks using TensorFlow – practical activity for the AI course.
 
 This project was developed as part of the practical activities of the Artificial Intelligence course in the Systems Analysis and Development program.
